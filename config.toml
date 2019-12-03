@@ -1,0 +1,50 @@
+baseURL = "https://blog.luning.wang/"
+title = "天问"
+theme = "jane"
+
+defaultContentLanguage = "zh-cn"
+[Languages.zh-cn]
+  languageCode = "zh-cn"
+
+[params]
+  description = "个人博客"
+  since = "2017"
+  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+[author]                  
+  name = "Ana"
+
+[[menu.main]]     
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
+[[menu.main]]
+  name = "About"
+  weight = 40
+  identifier = "about"
+  url = "/about/"
+
+[params.social]                                         # 社交链接
+  a-email = "deadwind4@outlook.com"
+  g-github = "https://github.com/deadwind4"
+
+  [params.reward]                                         # 文章打赏
+    enable = false
+    wechat = "/img/reward/wechat-qr-code.jpeg"           # 微信二维码
+    alipay = "/img/reward/alipay-qr-code.jpeg"           # 支付宝二维码
