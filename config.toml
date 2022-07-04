@@ -1,7 +1,12 @@
 # The URL the site will be built for
-base_url = "blog.luning.wang"
+base_url = "https://blog.luning.wang"
 
-theme = "after-dark"
+# The site title and description; used in feeds by default.
+title = "圣堂武士文献馆"
+date = 2019-01-01
+description = "卖萌"
+
+theme = "terminimal"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -16,3 +21,4 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+author = "John Smith"
