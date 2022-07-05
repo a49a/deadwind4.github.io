@@ -4,3 +4,6 @@
 [submodule "themes/terminimal"]
 	path = themes/terminimal
 	url = https://github.com/pawroman/zola-theme-terminimal.git
+[submodule "themes/anatole-zola"]
+	path = themes/anatole-zola
+	url = https://github.com/longfangsong/anatole-zola.git
